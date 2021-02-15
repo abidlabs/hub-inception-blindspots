@@ -1,6 +1,5 @@
 import gradio as gr
 import tensorflow as tf
-import numpy as np
 import requests
 
 inception_net = tf.keras.applications.InceptionV3() # load the model
